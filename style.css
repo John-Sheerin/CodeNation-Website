@@ -1,0 +1,193 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #111;
+    
+}
+.navbar {
+    color:rgb(196, 51, 25);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+h1 {
+    color:rgb(63, 226, 255);  
+}
+h3 {
+    color:rgb(63, 226, 255);  
+}
+h2 {
+    color:rgb(63, 226, 255);  
+}
+/*creates a horizontal menu bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+  }
+  
+  li {
+    
+    float: right; /*makes the menu align right*/
+   
+  }
+  
+  li a {
+    display: block;
+    color: rgb(63, 226, 255);/*changes the color of the menu text*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111; 
+
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+p{
+    font-size: 26px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.profile {
+    left: 45%;
+    top: 15%;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: top;
+    z-index: 1;  
+}
+    
+.profile img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.name {
+    left: 48%;
+    position: relative;
+    z-index: 1;
+}
+
+body, html {
+    height: 100%;
+}
+
+/*create a srolling screen*/
+.parallax {
+/* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 40%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.gametag {
+    color: rgb(10, 108, 13);
+    position: sticky;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+.mygames {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mygamessection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playgames {
+    display: flex;
+    align-items: center;
+    justify-content: top;
+}
